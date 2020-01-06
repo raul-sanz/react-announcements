@@ -7,7 +7,7 @@ export const Title = styled.h3.attrs({
 export const List = styled.ul.attrs({
   className: 'list-outside py-3 '
 })`
-  height: 85%;
+  max-height: 85%;
 `
 
 export const ListItem = styled.li.attrs(props=>({
